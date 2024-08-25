@@ -1,0 +1,262 @@
+[
+  {
+    "question_id": "1",
+    "question": "Which of the following nutrients mainly provide energy to the body?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Proteins",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Vitamins",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Carbohydrates",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Minerals",
+        "is_correct_answer": "false"
+      }
+    ]
+  },
+  {
+    "question_id": "2",
+    "question": "Which vitamin is required for maintaining good eyesight?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Vitamin A",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Vitamin B",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Vitamin C",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Vitamin D",
+        "is_correct_answer": "false"
+      }
+    ]
+  },
+  {
+    "question_id": "3",
+    "question": "Which mineral is essential for keeping bones healthy?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Iron",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Calcium",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Iodine",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Phosphorus",
+        "is_correct_answer": "false"
+      }
+    ]
+  },
+  {
+    "question_id": "4",
+    "question": "Which of the following is a source of protein?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Rice",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Paneer",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Potato",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Butter",
+        "is_correct_answer": "false"
+      }
+    ]
+  },
+  {
+    "question_id": "5",
+    "question": "What is the role of dietary fiber in our diet?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Provides energy",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Helps in digestion",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Builds muscles",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Fights infections",
+        "is_correct_answer": "false"
+      }
+    ]
+  },
+  {
+    "question_id": "6",
+    "question": "Which of the following is considered a 'body-building food'?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Fats",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Proteins",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Carbohydrates",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Minerals",
+        "is_correct_answer": "false"
+      }
+    ]
+  },
+  {
+    "question_id": "7",
+    "question": "What nutrient deficiency causes rickets?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Vitamin A",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Vitamin D",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Vitamin C",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Vitamin B",
+        "is_correct_answer": "false"
+      }
+    ]
+  },
+  {
+    "question_id": "8",
+    "question": "Which food item is rich in carbohydrates?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Rice",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Eggs",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Milk",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Spinach",
+        "is_correct_answer": "false"
+      }
+    ]
+  },
+  {
+    "question_id": "9",
+    "question": "What is the primary function of fats in the diet?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Provide energy",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Build muscles",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Help with digestion",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Improve vision",
+        "is_correct_answer": "false"
+      }
+    ]
+  },
+  {
+    "question_id": "10",
+    "question": "Which disease is caused by a deficiency of Vitamin C?",
+    "answers": [
+      {
+        "answer_id": "1",
+        "answer": "Scurvy",
+        "is_correct_answer": "true"
+      },
+      {
+        "answer_id": "2",
+        "answer": "Beri-beri",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "3",
+        "answer": "Rickets",
+        "is_correct_answer": "false"
+      },
+      {
+        "answer_id": "4",
+        "answer": "Anemia",
+        "is_correct_answer": "false"
+      }
+    ]
+  }
+]
