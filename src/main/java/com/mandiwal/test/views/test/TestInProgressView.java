@@ -1,52 +1,75 @@
 package com.mandiwal.test.views.test;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.mandiwal.test.pojo.Answer;
-import com.mandiwal.test.pojo.Question;
+import com.mandiwal.test.data.QuestionManager;
+import com.mandiwal.test.data.pojo.Answer;
+import com.mandiwal.test.data.pojo.Question;
 import com.mandiwal.test.views.MainLayout;
 import com.vaadin.flow.component.Text;
+import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.html.Hr;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.radiobutton.RadioButtonGroup;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RouteAlias;
-import lombok.SneakyThrows;
-import org.springframework.util.ResourceUtils;
 
-import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
 
 @PageTitle("Test in progress")
 @Route(value = "/testInProgress", layout = MainLayout.class)
 @RouteAlias(value = "/testInProgress", layout = MainLayout.class)
 public class TestInProgressView extends VerticalLayout {
 
-    public TestInProgressView() {
+    private final QuestionManager questionManager;
+    private RadioButtonGroup<Answer> answerOptions;
 
-        List<Question> questions = getQuestions();
-        Text questionCounter = new Text("Question 1 of 50");
-        Question question1 = questions.get(0);
+    public TestInProgressView(QuestionManager questionManager) {
+        this.questionManager = questionManager;
+        questionManager.refresh();
+        loadView();
+    }
 
+    private void loadView() {
+        removeAll();
+
+        AtomicReference<Question> question = new AtomicReference<>(questionManager.getNextQuestion());
+        Text questionCounterText = new Text(String.format("Question %d of %d", questionManager.getQuestionCounter(), questionManager.getTotalQuestionsCount()));
 
         setMargin(true);
 
-        add(questionCounter);
+        add(questionCounterText);
         add(new Hr());
 
-        RadioButtonGroup<String> radioButtonGroup = new RadioButtonGroup<>();
-        radioButtonGroup.setLabel(question1.getQuestion());
-        radioButtonGroup.setItems(question1.getAnswers().stream().map(Answer::getAnswer).toList());
 
-        add(radioButtonGroup);
+        answerOptions = new RadioButtonGroup<>();
+        answerOptions.setLabel(question.get().getQuestion());
+        answerOptions.setItems(question.get().getAnswers());
+        answerOptions.setItemLabelGenerator(Answer::getAnswer);
+        add(answerOptions);
+
+
+        if (questionManager.isLastQuestion()) {
+            Button finishButton = new Button("Finish Test", event -> {
+                questionManager.evaluateAnswer(answerOptions.getValue().getAnswerId());
+                loadFinishView();
+            });
+
+            add(finishButton);
+        } else {
+            Button nextButton = new Button("Next Question", event -> {
+                questionManager.evaluateAnswer(answerOptions.getValue().getAnswerId());
+                loadView();
+            });
+
+            add(nextButton);
+        }
     }
 
-    @SneakyThrows
-    private List<Question> getQuestions() {
-        ObjectMapper mapper = new ObjectMapper();
-        return mapper.readValue(ResourceUtils.getFile("classpath:class_6_science.json"), new TypeReference<List<Question>>() {
-        });
-
+    private void loadFinishView() {
+        removeAll();
+        Text resultText = new Text(String.format("Congrats for finishing the test. Your score is %d out of %d", questionManager.getCorrectAnswersCount(), questionManager.getTotalQuestionsCount()));
+        add(resultText);
     }
+
 
 }

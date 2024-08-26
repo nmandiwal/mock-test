@@ -1,4 +1,4 @@
-package com.mandiwal.test.pojo;
+package com.mandiwal.test.data.pojo;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -17,4 +17,8 @@ public class Question {
 
     @JsonProperty("answers")
     List<Answer> answers;
+
+    public Boolean isCorrectAnswer(Integer answerId) {
+        return answers.stream().anyMatch(answer -> answer.getAnswerId().equals(answerId) && answer.getIsCorrect());
+    }
 }
