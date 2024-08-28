@@ -17,9 +17,9 @@ import lombok.Getter;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-@Route(value = "/testInProgress", layout = MainLayout.class)
-@RouteAlias(value = "/testInProgress", layout = MainLayout.class)
-public class TestInProgressView extends VerticalLayout implements HasUrlParameter<String> {
+@Route(value = "/test", layout = MainLayout.class)
+@RouteAlias(value = "/test", layout = MainLayout.class)
+public class TestView extends VerticalLayout implements HasUrlParameter<String> {
 
     private final QuestionManager questionManager;
     @Getter
@@ -28,7 +28,7 @@ public class TestInProgressView extends VerticalLayout implements HasUrlParamete
     private RadioButtonGroup<Option> answerOptions;
 
 
-    public TestInProgressView(QuestionManager questionManager) {
+    public TestView(QuestionManager questionManager) {
         this.questionManager = questionManager;
     }
 

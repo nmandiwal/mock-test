@@ -18,7 +18,7 @@ public class HomePageView extends HorizontalLayout {
     public HomePageView() {
         for (Chapter value : Chapter.values()) {
             Button button = new Button(value.getDisplayText());
-            button.addClickListener(e -> button.getUI().ifPresent(ui -> ui.navigate("testInProgress/" + value)));
+            button.addClickListener(e -> button.getUI().ifPresent(ui -> ui.navigate("test/" + value)));
             button.addClickShortcut(Key.ENTER);
 
 
