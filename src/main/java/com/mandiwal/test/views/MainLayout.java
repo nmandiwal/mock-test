@@ -1,7 +1,7 @@
 package com.mandiwal.test.views;
 
 import com.mandiwal.test.views.helloworld.HelloWorldView;
-import com.mandiwal.test.views.test.TestStartView;
+import com.mandiwal.test.views.test.HomePageView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.html.Footer;
@@ -14,6 +14,8 @@ import com.vaadin.flow.component.sidenav.SideNavItem;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.theme.lumo.LumoUtility;
 import org.vaadin.lineawesome.LineAwesomeIcon;
+
+import java.lang.reflect.Field;
 
 /**
  * The main view is a top-level placeholder for other views.
@@ -51,16 +53,14 @@ public class MainLayout extends AppLayout {
     private SideNav createNavigation() {
         SideNav nav = new SideNav();
 
+        nav.addItem(new SideNavItem("Home", HomePageView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
         nav.addItem(new SideNavItem("Hello World", HelloWorldView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
-        nav.addItem(new SideNavItem("Start test", TestStartView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
 
         return nav;
     }
 
     private Footer createFooter() {
-        Footer layout = new Footer();
-
-        return layout;
+        return new Footer();
     }
 
     @Override
@@ -71,6 +71,18 @@ public class MainLayout extends AppLayout {
 
     private String getCurrentPageTitle() {
         PageTitle title = getContent().getClass().getAnnotation(PageTitle.class);
-        return title == null ? "" : title.value();
+        String titleValue = "Sample Title";
+        if (title == null) {
+            try {
+                Field pageTitle = getContent().getClass().getDeclaredField("pageTitle");
+                pageTitle.setAccessible(true);
+                titleValue = (String) pageTitle.get(getContent());
+            } catch (NoSuchFieldException | IllegalAccessException e) {
+                // ignore
+            }
+        } else {
+            titleValue = title.value();
+        }
+        return titleValue;
     }
 }

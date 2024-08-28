@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": "1",
+    "question": "Which of the following materials is commonly used to make a tumbler for holding water?",
+    "answerId": "3",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Cloth"
+      },
+      {
+        "optionId": "2",
+        "option": "Wood"
+      },
+      {
+        "optionId": "3",
+        "option": "Metal"
+      },
+      {
+        "optionId": "4",
+        "option": "Rubber"
+      }
+    ]
+  },
+  {
+    "questionId": "2",
+    "question": "What property allows materials like glass to be used for making windows?",
+    "answerId": "1",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Transparency"
+      },
+      {
+        "optionId": "2",
+        "option": "Hardness"
+      },
+      {
+        "optionId": "3",
+        "option": "Softness"
+      },
+      {
+        "optionId": "4",
+        "option": "Flexibility"
+      }
+    ]
+  },
+  {
+    "questionId": "3",
+    "question": "Which of the following is a metal that has a shiny appearance?",
+    "answerId": "4",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Wood"
+      },
+      {
+        "optionId": "2",
+        "option": "Plastic"
+      },
+      {
+        "optionId": "3",
+        "option": "Cloth"
+      },
+      {
+        "optionId": "4",
+        "option": "Aluminium"
+      }
+    ]
+  },
+  {
+    "questionId": "4",
+    "question": "Which material is known to be soft and easily compressible?",
+    "answerId": "2",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Iron"
+      },
+      {
+        "optionId": "2",
+        "option": "Cotton"
+      },
+      {
+        "optionId": "3",
+        "option": "Stone"
+      },
+      {
+        "optionId": "4",
+        "option": "Glass"
+      }
+    ]
+  },
+  {
+    "questionId": "5",
+    "question": "Which property is NOT typically associated with metals?",
+    "answerId": "3",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Conductivity"
+      },
+      {
+        "optionId": "2",
+        "option": "Lustre"
+      },
+      {
+        "optionId": "3",
+        "option": "Transparency"
+      },
+      {
+        "optionId": "4",
+        "option": "Hardness"
+      }
+    ]
+  },
+  {
+    "questionId": "6",
+    "question": "What is the term for materials that do not allow light to pass through?",
+    "answerId": "4",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Transparent"
+      },
+      {
+        "optionId": "2",
+        "option": "Translucent"
+      },
+      {
+        "optionId": "3",
+        "option": "Flexible"
+      },
+      {
+        "optionId": "4",
+        "option": "Opaque"
+      }
+    ]
+  },
+  {
+    "questionId": "7",
+    "question": "Which of the following substances is soluble in water?",
+    "answerId": "1",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Salt"
+      },
+      {
+        "optionId": "2",
+        "option": "Sand"
+      },
+      {
+        "optionId": "3",
+        "option": "Oil"
+      },
+      {
+        "optionId": "4",
+        "option": "Stone"
+      }
+    ]
+  },
+  {
+    "questionId": "8",
+    "question": "Which of the following materials is considered translucent?",
+    "answerId": "2",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Glass"
+      },
+      {
+        "optionId": "2",
+        "option": "Oiled paper"
+      },
+      {
+        "optionId": "3",
+        "option": "Wood"
+      },
+      {
+        "optionId": "4",
+        "option": "Metal"
+      }
+    ]
+  },
+  {
+    "questionId": "9",
+    "question": "Which material would you classify as being opaque?",
+    "answerId": "3",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Clear plastic"
+      },
+      {
+        "optionId": "2",
+        "option": "Water"
+      },
+      {
+        "optionId": "3",
+        "option": "Cardboard"
+      },
+      {
+        "optionId": "4",
+        "option": "Glass"
+      }
+    ]
+  },
+  {
+    "questionId": "10",
+    "question": "Which of these objects is most likely to sink in water?",
+    "answerId": "4",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Leaf"
+      },
+      {
+        "optionId": "2",
+        "option": "Wooden stick"
+      },
+      {
+        "optionId": "3",
+        "option": "Plastic bottle cap"
+      },
+      {
+        "optionId": "4",
+        "option": "Stone"
+      }
+    ]
+  }
+]

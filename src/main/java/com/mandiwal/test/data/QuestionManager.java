@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mandiwal.test.data.pojo.Question;
 import com.vaadin.flow.spring.annotation.UIScope;
 import lombok.Getter;
+import lombok.Setter;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ResourceUtils;
@@ -21,11 +22,14 @@ public class QuestionManager {
     private Integer questionCounter = 0;
     private List<Question> questions = null;
 
+    @Setter
+    private Chapter chapter = null;
+
     @SneakyThrows
     private List<Question> getQuestions() {
         if (questions == null) {
             ObjectMapper mapper = new ObjectMapper();
-            List<Question> allQuestions = mapper.readValue(ResourceUtils.getFile("classpath:class_6_science.json"), new TypeReference<List<Question>>() {
+            List<Question> allQuestions = mapper.readValue(ResourceUtils.getFile("classpath:" + chapter.getFileName()), new TypeReference<List<Question>>() {
             });
             shuffle(allQuestions);
             questions = allQuestions.subList(0, 5);
@@ -38,8 +42,8 @@ public class QuestionManager {
         return getQuestions().get(questionCounter - 1);
     }
 
-    public void evaluateAnswer(Integer selectedAnswerId) {
-        if (getCurrentQuestion().isCorrectAnswer(selectedAnswerId)) {
+    public void evaluateAnswer(Integer selectedOptionId) {
+        if (getCurrentQuestion().isCorrectAnswer(selectedOptionId)) {
             ++correctAnswersCount;
         }
     }
@@ -56,9 +60,10 @@ public class QuestionManager {
         return getQuestions().size() == questionCounter;
     }
 
-    public void refresh() {
+    public void refresh(Chapter chapter) {
         correctAnswersCount = 0;
         questionCounter = 0;
         questions = null;
+        this.chapter = chapter;
     }
 }

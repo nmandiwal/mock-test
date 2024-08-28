@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": "1",
+    "question": "Which of the following nutrients mainly provide energy to the body?",
+    "answerId": "3",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Proteins"
+      },
+      {
+        "optionId": "2",
+        "option": "Vitamins"
+      },
+      {
+        "optionId": "3",
+        "option": "Carbohydrates"
+      },
+      {
+        "optionId": "4",
+        "option": "Minerals"
+      }
+    ]
+  },
+  {
+    "questionId": "2",
+    "question": "Which vitamin is required for maintaining good eyesight?",
+    "answerId": "1",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Vitamin A"
+      },
+      {
+        "optionId": "2",
+        "option": "Vitamin B"
+      },
+      {
+        "optionId": "3",
+        "option": "Vitamin C"
+      },
+      {
+        "optionId": "4",
+        "option": "Vitamin D"
+      }
+    ]
+  },
+  {
+    "questionId": "3",
+    "question": "Which mineral is essential for keeping bones healthy?",
+    "answerId": "2",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Iron"
+      },
+      {
+        "optionId": "2",
+        "option": "Calcium"
+      },
+      {
+        "optionId": "3",
+        "option": "Iodine"
+      },
+      {
+        "optionId": "4",
+        "option": "Phosphorus"
+      }
+    ]
+  },
+  {
+    "questionId": "4",
+    "question": "Which of the following is a source of protein?",
+    "answerId": "2",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Rice"
+      },
+      {
+        "optionId": "2",
+        "option": "Paneer"
+      },
+      {
+        "optionId": "3",
+        "option": "Potato"
+      },
+      {
+        "optionId": "4",
+        "option": "Butter"
+      }
+    ]
+  },
+  {
+    "questionId": "5",
+    "question": "What is the role of dietary fiber in our diet?",
+    "answerId": "2",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Provides energy"
+      },
+      {
+        "optionId": "2",
+        "option": "Helps in digestion"
+      },
+      {
+        "optionId": "3",
+        "option": "Builds muscles"
+      },
+      {
+        "optionId": "4",
+        "option": "Fights infections"
+      }
+    ]
+  },
+  {
+    "questionId": "6",
+    "question": "Which of the following is considered a 'body-building food'?",
+    "answerId": "2",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Fats"
+      },
+      {
+        "optionId": "2",
+        "option": "Proteins"
+      },
+      {
+        "optionId": "3",
+        "option": "Carbohydrates"
+      },
+      {
+        "optionId": "4",
+        "option": "Minerals"
+      }
+    ]
+  },
+  {
+    "questionId": "7",
+    "question": "What nutrient deficiency causes rickets?",
+    "answerId": "2",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Vitamin A"
+      },
+      {
+        "optionId": "2",
+        "option": "Vitamin D"
+      },
+      {
+        "optionId": "3",
+        "option": "Vitamin C"
+      },
+      {
+        "optionId": "4",
+        "option": "Vitamin B"
+      }
+    ]
+  },
+  {
+    "questionId": "8",
+    "question": "Which food item is rich in carbohydrates?",
+    "answerId": "1",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Rice"
+      },
+      {
+        "optionId": "2",
+        "option": "Eggs"
+      },
+      {
+        "optionId": "3",
+        "option": "Milk"
+      },
+      {
+        "optionId": "4",
+        "option": "Spinach"
+      }
+    ]
+  },
+  {
+    "questionId": "9",
+    "question": "What is the primary function of fats in the diet?",
+    "answerId": "1",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Provide energy"
+      },
+      {
+        "optionId": "2",
+        "option": "Build muscles"
+      },
+      {
+        "optionId": "3",
+        "option": "Help with digestion"
+      },
+      {
+        "optionId": "4",
+        "option": "Improve vision"
+      }
+    ]
+  },
+  {
+    "questionId": "10",
+    "question": "Which disease is caused by a deficiency of Vitamin C?",
+    "answerId": "1",
+    "options": [
+      {
+        "optionId": "1",
+        "option": "Scurvy"
+      },
+      {
+        "optionId": "2",
+        "option": "Beri-beri"
+      },
+      {
+        "optionId": "3",
+        "option": "Rickets"
+      },
+      {
+        "optionId": "4",
+        "option": "Anemia"
+      }
+    ]
+  }
+]

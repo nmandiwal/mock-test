@@ -1,24 +1,24 @@
 package com.mandiwal.test.data.pojo;
 
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
-import java.util.List;
+import java.util.Set;
 
 @Data
 public class Question {
 
-    @JsonProperty("question_id")
+    //    @JsonProperty("question_id")
     Integer questionId;
+    Integer answerId;
 
-    @JsonProperty("question")
+    //    @JsonProperty("question")
     String question;
 
-    @JsonProperty("answers")
-    List<Answer> answers;
+    //    @JsonProperty("options")
+    Set<Option> options;
 
-    public Boolean isCorrectAnswer(Integer answerId) {
-        return answers.stream().anyMatch(answer -> answer.getAnswerId().equals(answerId) && answer.getIsCorrect());
+    public Boolean isCorrectAnswer(Integer optionId) {
+        return answerId.equals(optionId);
     }
 }
