@@ -1,31 +1,30 @@
 package com.mandiwal.test.views.test;
 
-import com.mandiwal.test.data.Chapter;
 import com.mandiwal.test.views.MainLayout;
 import com.vaadin.flow.component.Key;
 import com.vaadin.flow.component.button.Button;
-import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
+import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.router.RouteAlias;
 
-@PageTitle("Select test")
+@PageTitle("Home")
 @Route(value = "", layout = MainLayout.class)
 @RouteAlias(value = "", layout = MainLayout.class)
-public class HomePageView extends HorizontalLayout {
+public class HomePageView extends VerticalLayout {
 
 
     public HomePageView() {
-        for (Chapter value : Chapter.values()) {
-            Button button = new Button(value.getDisplayText());
-            button.addClickListener(e -> button.getUI().ifPresent(ui -> ui.navigate("test/" + value)));
-            button.addClickShortcut(Key.ENTER);
+        Button selectTestButton = new Button("Select Test");
+        selectTestButton.addClickListener(e -> selectTestButton.getUI().ifPresent(ui -> ui.navigate("select")));
+        selectTestButton.addClickShortcut(Key.ENTER);
+        add(selectTestButton);
 
+        Button aboutButton = new Button("About");
+        aboutButton.addClickListener(e -> aboutButton.getUI().ifPresent(ui -> ui.navigate("about")));
+        aboutButton.addClickShortcut(Key.ENTER);
+        add(aboutButton);
 
-            setVerticalComponentAlignment(Alignment.END, button);
-
-            add(button);
-        }
         setMargin(true);
 
     }

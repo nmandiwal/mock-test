@@ -1,7 +1,8 @@
 package com.mandiwal.test.views;
 
-import com.mandiwal.test.views.helloworld.HelloWorldView;
+import com.mandiwal.test.views.test.AboutView;
 import com.mandiwal.test.views.test.HomePageView;
+import com.mandiwal.test.views.test.SelectView;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
 import com.vaadin.flow.component.html.Footer;
@@ -54,7 +55,9 @@ public class MainLayout extends AppLayout {
         SideNav nav = new SideNav();
 
         nav.addItem(new SideNavItem("Home", HomePageView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
-        nav.addItem(new SideNavItem("Hello World", HelloWorldView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
+        nav.addItem(new SideNavItem("Select Test", SelectView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
+        nav.addItem(new SideNavItem("about", AboutView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
+        //nav.addItem(new SideNavItem("Hello World", HelloWorldView.class, LineAwesomeIcon.GLOBE_SOLID.create()));
 
         return nav;
     }

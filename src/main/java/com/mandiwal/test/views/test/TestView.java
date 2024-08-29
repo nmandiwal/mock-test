@@ -17,6 +17,8 @@ import lombok.Getter;
 
 import java.util.concurrent.atomic.AtomicReference;
 
+import static com.vaadin.flow.component.radiobutton.RadioGroupVariant.LUMO_VERTICAL;
+
 @Route(value = "/test", layout = MainLayout.class)
 @RouteAlias(value = "/test", layout = MainLayout.class)
 public class TestView extends VerticalLayout implements HasUrlParameter<String> {
@@ -71,6 +73,7 @@ public class TestView extends VerticalLayout implements HasUrlParameter<String> 
         answerOptions.setLabel(question.get().getQuestion());
         answerOptions.setItems(question.get().getOptions());
         answerOptions.setItemLabelGenerator(Option::getOption);
+        answerOptions.addThemeVariants(LUMO_VERTICAL);
         add(answerOptions);
 
         if (questionManager.isLastQuestion()) {
@@ -97,8 +100,9 @@ public class TestView extends VerticalLayout implements HasUrlParameter<String> 
     private void loadFinishView() {
         removeAll();
         add(new H4(chapter.getSummary()));
-        Text resultText = new Text(String.format("Congrats for finishing the test. Your score is %d out of %d", questionManager.getCorrectAnswersCount(), questionManager.getTotalQuestionsCount()));
-        add(resultText);
+        Text resultText1 = new Text("Congrats for finishing the test. ");
+        Text resultText2 = new Text(String.format("Your score is %d out of %d.", questionManager.getCorrectAnswersCount(), questionManager.getTotalQuestionsCount()));
+        add(resultText1, new H4(""), resultText2);
     }
 
 }
