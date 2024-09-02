@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": 1,
+    "question": "What is the function of joints in the human body?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "To produce blood cells"
+      },
+      {
+        "optionId": 2,
+        "option": "To store fat"
+      },
+      {
+        "optionId": 3,
+        "option": "To help in movement"
+      },
+      {
+        "optionId": 4,
+        "option": "To digest food"
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": "Which type of joint is found at the shoulder and allows movement in all directions?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Hinge joint"
+      },
+      {
+        "optionId": 2,
+        "option": "Ball and socket joint"
+      },
+      {
+        "optionId": 3,
+        "option": "Pivotal joint"
+      },
+      {
+        "optionId": 4,
+        "option": "Fixed joint"
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": "What type of joint is present in the elbow?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Hinge joint"
+      },
+      {
+        "optionId": 2,
+        "option": "Ball and socket joint"
+      },
+      {
+        "optionId": 3,
+        "option": "Pivotal joint"
+      },
+      {
+        "optionId": 4,
+        "option": "Gliding joint"
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": "Which of the following animals moves with the help of a muscular foot?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Earthworm"
+      },
+      {
+        "optionId": 2,
+        "option": "Cockroach"
+      },
+      {
+        "optionId": 3,
+        "option": "Snail"
+      },
+      {
+        "optionId": 4,
+        "option": "Fish"
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "question": "How does an earthworm move?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "By expanding and contracting its muscles"
+      },
+      {
+        "optionId": 2,
+        "option": "By walking on legs"
+      },
+      {
+        "optionId": 3,
+        "option": "By flying"
+      },
+      {
+        "optionId": 4,
+        "option": "By slithering on the ground"
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "question": "What is the main function of the rib cage?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "To help in digestion"
+      },
+      {
+        "optionId": 2,
+        "option": "To protect internal organs like the heart and lungs"
+      },
+      {
+        "optionId": 3,
+        "option": "To produce red blood cells"
+      },
+      {
+        "optionId": 4,
+        "option": "To aid in locomotion"
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "question": "Which structure in the human body is known as the backbone?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Skull"
+      },
+      {
+        "optionId": 2,
+        "option": "Rib cage"
+      },
+      {
+        "optionId": 3,
+        "option": "Pelvic bones"
+      },
+      {
+        "optionId": 4,
+        "option": "Vertebral column"
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "question": "Which type of movement is not possible with a hinge joint?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Bending and straightening"
+      },
+      {
+        "optionId": 2,
+        "option": "Back and forth movement"
+      },
+      {
+        "optionId": 3,
+        "option": "Rotation"
+      },
+      {
+        "optionId": 4,
+        "option": "Flexion and extension"
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "question": "What allows fish to swim efficiently in water?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Their bones are heavy"
+      },
+      {
+        "optionId": 2,
+        "option": "They have arms and legs"
+      },
+      {
+        "optionId": 3,
+        "option": "They use their gills for movement"
+      },
+      {
+        "optionId": 4,
+        "option": "Their streamlined body and fins"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "question": "Which animal moves by forming loops on the ground?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Fish"
+      },
+      {
+        "optionId": 2,
+        "option": "Snake"
+      },
+      {
+        "optionId": 3,
+        "option": "Bird"
+      },
+      {
+        "optionId": 4,
+        "option": "Snail"
+      }
+    ]
+  }
+]

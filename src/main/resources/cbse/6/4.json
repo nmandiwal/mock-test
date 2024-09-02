@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": 1,
+    "question": "What are plants with green and tender stems called?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Herbs"
+      },
+      {
+        "optionId": 2,
+        "option": "Shrubs"
+      },
+      {
+        "optionId": 3,
+        "option": "Trees"
+      },
+      {
+        "optionId": 4,
+        "option": "Climbers"
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": "Which part of the plant conducts water from roots to leaves?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Root"
+      },
+      {
+        "optionId": 2,
+        "option": "Stem"
+      },
+      {
+        "optionId": 3,
+        "option": "Leaf"
+      },
+      {
+        "optionId": 4,
+        "option": "Flower"
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": "What is the primary function of roots in a plant?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Prepare food"
+      },
+      {
+        "optionId": 2,
+        "option": "Produce flowers"
+      },
+      {
+        "optionId": 3,
+        "option": "Absorb water and minerals"
+      },
+      {
+        "optionId": 4,
+        "option": "Give color to leaves"
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": "Which type of venation do leaves of grass have?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Reticulate venation"
+      },
+      {
+        "optionId": 2,
+        "option": "Network venation"
+      },
+      {
+        "optionId": 3,
+        "option": "Branching venation"
+      },
+      {
+        "optionId": 4,
+        "option": "Parallel venation"
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "question": "Which part of a flower becomes fruit?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Ovary"
+      },
+      {
+        "optionId": 2,
+        "option": "Petal"
+      },
+      {
+        "optionId": 3,
+        "option": "Sepal"
+      },
+      {
+        "optionId": 4,
+        "option": "Stamen"
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "question": "What is the function of leaves in photosynthesis?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Absorb minerals"
+      },
+      {
+        "optionId": 2,
+        "option": "Prepare food using sunlight"
+      },
+      {
+        "optionId": 3,
+        "option": "Anchor the plant"
+      },
+      {
+        "optionId": 4,
+        "option": "Store water"
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "question": "Which type of roots do plants with parallel venation have?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Tap roots"
+      },
+      {
+        "optionId": 2,
+        "option": "Lateral roots"
+      },
+      {
+        "optionId": 3,
+        "option": "Aerial roots"
+      },
+      {
+        "optionId": 4,
+        "option": "Fibrous roots"
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "question": "Which part of the flower contains the ovules?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Anther"
+      },
+      {
+        "optionId": 2,
+        "option": "Petal"
+      },
+      {
+        "optionId": 3,
+        "option": "Ovary"
+      },
+      {
+        "optionId": 4,
+        "option": "Stigma"
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "question": "What is the role of sepals in a flower?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Produce pollen"
+      },
+      {
+        "optionId": 2,
+        "option": "Protect the flower bud"
+      },
+      {
+        "optionId": 3,
+        "option": "Attract insects"
+      },
+      {
+        "optionId": 4,
+        "option": "Develop into fruit"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "question": "What is the correct sequence of parts in a typical flower from outermost to innermost?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Stamen, Pistil, Sepal, Petal"
+      },
+      {
+        "optionId": 2,
+        "option": "Petal, Sepal, Pistil, Stamen"
+      },
+      {
+        "optionId": 3,
+        "option": "Sepal, Stamen, Pistil, Petal"
+      },
+      {
+        "optionId": 4,
+        "option": "Sepal, Petal, Stamen, Pistil"
+      }
+    ]
+  }
+]
