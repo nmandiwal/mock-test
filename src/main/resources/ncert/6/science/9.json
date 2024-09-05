@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": 1,
+    "question": "What provides electricity in a torch?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Electric cell"
+      },
+      {
+        "optionId": 2,
+        "option": "Switch"
+      },
+      {
+        "optionId": 3,
+        "option": "Bulb"
+      },
+      {
+        "optionId": 4,
+        "option": "Wire"
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": "What is the thin wire inside a bulb that glows called?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Terminal"
+      },
+      {
+        "optionId": 2,
+        "option": "Cap"
+      },
+      {
+        "optionId": 3,
+        "option": "Filament"
+      },
+      {
+        "optionId": 4,
+        "option": "Base"
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": "Which of the following materials allows electric current to pass through?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Rubber"
+      },
+      {
+        "optionId": 2,
+        "option": "Metal"
+      },
+      {
+        "optionId": 3,
+        "option": "Plastic"
+      },
+      {
+        "optionId": 4,
+        "option": "Wood"
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": "What is the function of a switch in an electric circuit?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "To reduce the flow of current"
+      },
+      {
+        "optionId": 2,
+        "option": "To increase the flow of current"
+      },
+      {
+        "optionId": 3,
+        "option": "To generate electricity"
+      },
+      {
+        "optionId": 4,
+        "option": "To break or complete the circuit"
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "question": "Why does a fused bulb not light up?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Because its filament is broken"
+      },
+      {
+        "optionId": 2,
+        "option": "Because it has no glass"
+      },
+      {
+        "optionId": 3,
+        "option": "Because it has no base"
+      },
+      {
+        "optionId": 4,
+        "option": "Because its terminals are disconnected"
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "question": "In an electric circuit, the direction of current is from the ______ terminal to the ______ terminal of the electric cell.",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "negative, positive"
+      },
+      {
+        "optionId": 2,
+        "option": "positive, negative"
+      },
+      {
+        "optionId": 3,
+        "option": "neutral, positive"
+      },
+      {
+        "optionId": 4,
+        "option": "positive, neutral"
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "question": "What is the material that does not allow electric current to pass through it called?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Conductor"
+      },
+      {
+        "optionId": 2,
+        "option": "Filament"
+      },
+      {
+        "optionId": 3,
+        "option": "Insulator"
+      },
+      {
+        "optionId": 4,
+        "option": "Switch"
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "question": "Which of the following is a conductor of electricity?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Rubber"
+      },
+      {
+        "optionId": 2,
+        "option": "Plastic"
+      },
+      {
+        "optionId": 3,
+        "option": "Wood"
+      },
+      {
+        "optionId": 4,
+        "option": "Copper"
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "question": "What happens if the two terminals of an electric cell are connected without any device like a bulb?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "The bulb will glow brightly"
+      },
+      {
+        "optionId": 2,
+        "option": "The chemicals in the cell will get used up quickly"
+      },
+      {
+        "optionId": 3,
+        "option": "The circuit will break"
+      },
+      {
+        "optionId": 4,
+        "option": "The cell will last longer"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "question": "Which of the following is an insulator?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Plastic"
+      },
+      {
+        "optionId": 2,
+        "option": "Iron"
+      },
+      {
+        "optionId": 3,
+        "option": "Aluminium"
+      },
+      {
+        "optionId": 4,
+        "option": "Copper"
+      }
+    ]
+  }
+]

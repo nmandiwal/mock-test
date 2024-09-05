@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": 1,
+    "question": "What is a habitat?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "A type of animal"
+      },
+      {
+        "optionId": 2,
+        "option": "A type of plant"
+      },
+      {
+        "optionId": 3,
+        "option": "The surroundings where an organism lives"
+      },
+      {
+        "optionId": 4,
+        "option": "The food that organisms eat"
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": "Which feature helps a camel survive in the desert?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Short legs to avoid the sand"
+      },
+      {
+        "optionId": 2,
+        "option": "Ability to go without water for several days"
+      },
+      {
+        "optionId": 3,
+        "option": "Bright colored skin to reflect sunlight"
+      },
+      {
+        "optionId": 4,
+        "option": "Large ears to hear predators"
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": "What is adaptation?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "A feature that enables an organism to live in a particular habitat"
+      },
+      {
+        "optionId": 2,
+        "option": "The process of eating food"
+      },
+      {
+        "optionId": 3,
+        "option": "A method of movement"
+      },
+      {
+        "optionId": 4,
+        "option": "A place where organisms drink water"
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": "Which of the following is an example of an aquatic habitat?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Desert"
+      },
+      {
+        "optionId": 2,
+        "option": "Forest"
+      },
+      {
+        "optionId": 3,
+        "option": "Grassland"
+      },
+      {
+        "optionId": 4,
+        "option": "Pond"
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "question": "How do desert plants minimize water loss?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "By having large leaves"
+      },
+      {
+        "optionId": 2,
+        "option": "By growing tall quickly"
+      },
+      {
+        "optionId": 3,
+        "option": "By having spines instead of leaves"
+      },
+      {
+        "optionId": 4,
+        "option": "By storing water in their fruits"
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "question": "What are abiotic components of a habitat?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Plants and animals"
+      },
+      {
+        "optionId": 2,
+        "option": "Rocks, soil, air, and water"
+      },
+      {
+        "optionId": 3,
+        "option": "Only water and air"
+      },
+      {
+        "optionId": 4,
+        "option": "Only sunlight and heat"
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "question": "Which animal is adapted to cold mountain habitats?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Snow leopard"
+      },
+      {
+        "optionId": 2,
+        "option": "Camel"
+      },
+      {
+        "optionId": 3,
+        "option": "Dolphin"
+      },
+      {
+        "optionId": 4,
+        "option": "Frog"
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "question": "How do fish survive in water?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "They drink a lot of water"
+      },
+      {
+        "optionId": 2,
+        "option": "They have lungs like humans"
+      },
+      {
+        "optionId": 3,
+        "option": "They have gills to use oxygen dissolved in water"
+      },
+      {
+        "optionId": 4,
+        "option": "They have large fins for flying"
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "question": "What type of habitat do plants with hollow and light stems belong to?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Desert"
+      },
+      {
+        "optionId": 2,
+        "option": "Mountain"
+      },
+      {
+        "optionId": 3,
+        "option": "Grassland"
+      },
+      {
+        "optionId": 4,
+        "option": "Aquatic"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "question": "What is acclimatisation?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Small changes in an organism to adjust to short-term changes in the environment"
+      },
+      {
+        "optionId": 2,
+        "option": "Permanent changes in an organism to adjust to long-term environmental changes"
+      },
+      {
+        "optionId": 3,
+        "option": "Adaptation to live in water"
+      },
+      {
+        "optionId": 4,
+        "option": "Process of making food"
+      }
+    ]
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": 1,
+    "question": "What is air composed of mainly?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Oxygen and carbon dioxide"
+      },
+      {
+        "optionId": 2,
+        "option": "Nitrogen and oxygen"
+      },
+      {
+        "optionId": 3,
+        "option": "Carbon dioxide and nitrogen"
+      },
+      {
+        "optionId": 4,
+        "option": "Oxygen and hydrogen"
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": "Which gas in the air supports burning?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Nitrogen"
+      },
+      {
+        "optionId": 2,
+        "option": "Carbon dioxide"
+      },
+      {
+        "optionId": 3,
+        "option": "Oxygen"
+      },
+      {
+        "optionId": 4,
+        "option": "Water vapour"
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": "What percentage of air is oxygen?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "78%"
+      },
+      {
+        "optionId": 2,
+        "option": "21%"
+      },
+      {
+        "optionId": 3,
+        "option": "1%"
+      },
+      {
+        "optionId": 4,
+        "option": "50%"
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": "Why do mountaineers carry oxygen cylinders?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "To stay warm"
+      },
+      {
+        "optionId": 2,
+        "option": "To cook food"
+      },
+      {
+        "optionId": 3,
+        "option": "For lighting a fire"
+      },
+      {
+        "optionId": 4,
+        "option": "Because air is thinner at high altitudes"
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "question": "Which component of air is essential for photosynthesis?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Carbon dioxide"
+      },
+      {
+        "optionId": 2,
+        "option": "Nitrogen"
+      },
+      {
+        "optionId": 3,
+        "option": "Oxygen"
+      },
+      {
+        "optionId": 4,
+        "option": "Water vapour"
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "question": "What forms the thin layer surrounding the Earth?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Clouds"
+      },
+      {
+        "optionId": 2,
+        "option": "Atmosphere"
+      },
+      {
+        "optionId": 3,
+        "option": "Ozone"
+      },
+      {
+        "optionId": 4,
+        "option": "Wind"
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "question": "What role does air play in the water cycle?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Heats water in rivers"
+      },
+      {
+        "optionId": 2,
+        "option": "Increases the level of water"
+      },
+      {
+        "optionId": 3,
+        "option": "Makes water salty"
+      },
+      {
+        "optionId": 4,
+        "option": "Helps in evaporation and condensation"
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "question": "Which component of air do aquatic animals use for respiration?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Carbon dioxide"
+      },
+      {
+        "optionId": 2,
+        "option": "Nitrogen"
+      },
+      {
+        "optionId": 3,
+        "option": "Oxygen dissolved in water"
+      },
+      {
+        "optionId": 4,
+        "option": "Water vapour"
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "question": "How does air get into the soil?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Through spaces and burrows created by soil organisms"
+      },
+      {
+        "optionId": 2,
+        "option": "Air is absorbed by plants"
+      },
+      {
+        "optionId": 3,
+        "option": "Through evaporation"
+      },
+      {
+        "optionId": 4,
+        "option": "By photosynthesis"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "question": "Which of the following is not a component of air?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Oxygen"
+      },
+      {
+        "optionId": 2,
+        "option": "Nitrogen"
+      },
+      {
+        "optionId": 3,
+        "option": "Carbon dioxide"
+      },
+      {
+        "optionId": 4,
+        "option": "Helium"
+      }
+    ]
+  }
+]

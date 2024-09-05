@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": 1,
+    "question": "What is a natural magnet called?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Compass"
+      },
+      {
+        "optionId": 2,
+        "option": "Magnetite"
+      },
+      {
+        "optionId": 3,
+        "option": "Bar magnet"
+      },
+      {
+        "optionId": 4,
+        "option": "Artificial magnet"
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": "Which material is attracted by a magnet?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Iron"
+      },
+      {
+        "optionId": 2,
+        "option": "Plastic"
+      },
+      {
+        "optionId": 3,
+        "option": "Wood"
+      },
+      {
+        "optionId": 4,
+        "option": "Glass"
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": "Where are the poles of a bar magnet located?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "In the center"
+      },
+      {
+        "optionId": 2,
+        "option": "At the top"
+      },
+      {
+        "optionId": 3,
+        "option": "Along the sides"
+      },
+      {
+        "optionId": 4,
+        "option": "Near the ends"
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": "What happens when two like poles of magnets are brought close to each other?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "They attract each other"
+      },
+      {
+        "optionId": 2,
+        "option": "They repel each other"
+      },
+      {
+        "optionId": 3,
+        "option": "They stick together"
+      },
+      {
+        "optionId": 4,
+        "option": "Nothing happens"
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "question": "Which instrument is used to find directions?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Compass"
+      },
+      {
+        "optionId": 2,
+        "option": "Thermometer"
+      },
+      {
+        "optionId": 3,
+        "option": "Barometer"
+      },
+      {
+        "optionId": 4,
+        "option": "Altimeter"
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "question": "What are the poles of a magnet called?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "East and West"
+      },
+      {
+        "optionId": 2,
+        "option": "Top and Bottom"
+      },
+      {
+        "optionId": 3,
+        "option": "North and South"
+      },
+      {
+        "optionId": 4,
+        "option": "Left and Right"
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "question": "What happens if a magnet is broken into two pieces?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "It loses its magnetic property"
+      },
+      {
+        "optionId": 2,
+        "option": "It creates a strong magnetic force"
+      },
+      {
+        "optionId": 3,
+        "option": "The north pole disappears"
+      },
+      {
+        "optionId": 4,
+        "option": "Each piece will have a north and south pole"
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "question": "How can you make a magnet using an iron bar?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "By rubbing a bar magnet along its length several times"
+      },
+      {
+        "optionId": 2,
+        "option": "By cooling it"
+      },
+      {
+        "optionId": 3,
+        "option": "By heating it"
+      },
+      {
+        "optionId": 4,
+        "option": "By hitting it with a hammer"
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "question": "What happens when a magnet is heated or hammered?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "It becomes stronger"
+      },
+      {
+        "optionId": 2,
+        "option": "It loses its magnetic properties"
+      },
+      {
+        "optionId": 3,
+        "option": "It attracts more iron"
+      },
+      {
+        "optionId": 4,
+        "option": "Its poles are reversed"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "question": "Which of the following is NOT a property of a magnet?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "It attracts iron objects"
+      },
+      {
+        "optionId": 2,
+        "option": "It has two poles"
+      },
+      {
+        "optionId": 3,
+        "option": "It can point North-South direction"
+      },
+      {
+        "optionId": 4,
+        "option": "It can repel non-magnetic materials"
+      }
+    ]
+  }
+]

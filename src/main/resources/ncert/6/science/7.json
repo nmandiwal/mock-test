@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": 1,
+    "question": "What is the standard unit of length in the International System of Units (SI)?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Foot"
+      },
+      {
+        "optionId": 2,
+        "option": "Inch"
+      },
+      {
+        "optionId": 3,
+        "option": "Metre"
+      },
+      {
+        "optionId": 4,
+        "option": "Yard"
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": "Which of the following is an example of circular motion?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "The hands of a clock"
+      },
+      {
+        "optionId": 2,
+        "option": "A car moving on a straight road"
+      },
+      {
+        "optionId": 3,
+        "option": "A stone at rest"
+      },
+      {
+        "optionId": 4,
+        "option": "A child sliding down a slide"
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": "What was one of the earliest methods of transport on land?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Automobile"
+      },
+      {
+        "optionId": 2,
+        "option": "Bullock cart"
+      },
+      {
+        "optionId": 3,
+        "option": "Aeroplane"
+      },
+      {
+        "optionId": 4,
+        "option": "Bicycle"
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": "Which unit of measurement was used in ancient times and varied from person to person?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Metre"
+      },
+      {
+        "optionId": 2,
+        "option": "Kilometre"
+      },
+      {
+        "optionId": 3,
+        "option": "Millimetre"
+      },
+      {
+        "optionId": 4,
+        "option": "Cubit"
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "question": "Which type of motion involves an object moving along a straight line?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Rectilinear motion"
+      },
+      {
+        "optionId": 2,
+        "option": "Circular motion"
+      },
+      {
+        "optionId": 3,
+        "option": "Periodic motion"
+      },
+      {
+        "optionId": 4,
+        "option": "Random motion"
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "question": "What is periodic motion?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Motion along a straight path"
+      },
+      {
+        "optionId": 2,
+        "option": "Motion in a circular path"
+      },
+      {
+        "optionId": 3,
+        "option": "Motion that repeats itself after regular intervals"
+      },
+      {
+        "optionId": 4,
+        "option": "Motion in random directions"
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "question": "What should be used to measure the length of a curved line?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "A metre scale"
+      },
+      {
+        "optionId": 2,
+        "option": "A thread"
+      },
+      {
+        "optionId": 3,
+        "option": "A tape measure"
+      },
+      {
+        "optionId": 4,
+        "option": "A ruler"
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "question": "Which of the following was NOT an ancient unit of length?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Cubit"
+      },
+      {
+        "optionId": 2,
+        "option": "Foot"
+      },
+      {
+        "optionId": 3,
+        "option": "Kilometre"
+      },
+      {
+        "optionId": 4,
+        "option": "Pace"
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "question": "What is the first step in correctly measuring the length of an object?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Place the scale in contact with the object"
+      },
+      {
+        "optionId": 2,
+        "option": "Estimate the length visually"
+      },
+      {
+        "optionId": 3,
+        "option": "Start measuring from the middle of the scale"
+      },
+      {
+        "optionId": 4,
+        "option": "Use a broken scale"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "question": "Why is it important to have a standard unit of measurement?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "To confuse others"
+      },
+      {
+        "optionId": 2,
+        "option": "To ensure measurements are unique"
+      },
+      {
+        "optionId": 3,
+        "option": "To make measurements longer"
+      },
+      {
+        "optionId": 4,
+        "option": "To ensure consistency and accuracy in measurements"
+      }
+    ]
+  }
+]

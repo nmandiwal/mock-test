@@ -1,0 +1,232 @@
+[
+  {
+    "questionId": 1,
+    "question": "What type of objects emit their own light?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Opaque objects"
+      },
+      {
+        "optionId": 2,
+        "option": "Luminous objects"
+      },
+      {
+        "optionId": 3,
+        "option": "Translucent objects"
+      },
+      {
+        "optionId": 4,
+        "option": "Transparent objects"
+      }
+    ]
+  },
+  {
+    "questionId": 2,
+    "question": "Which of the following is an example of a transparent object?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Clear glass"
+      },
+      {
+        "optionId": 2,
+        "option": "Wooden board"
+      },
+      {
+        "optionId": 3,
+        "option": "Frosted glass"
+      },
+      {
+        "optionId": 4,
+        "option": "Cardboard"
+      }
+    ]
+  },
+  {
+    "questionId": 3,
+    "question": "Which object can form a shadow?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Clear plastic sheet"
+      },
+      {
+        "optionId": 2,
+        "option": "Air"
+      },
+      {
+        "optionId": 3,
+        "option": "Opaque object"
+      },
+      {
+        "optionId": 4,
+        "option": "Transparent object"
+      }
+    ]
+  },
+  {
+    "questionId": 4,
+    "question": "What is required to form a shadow?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Only a luminous object"
+      },
+      {
+        "optionId": 2,
+        "option": "Only an opaque object"
+      },
+      {
+        "optionId": 3,
+        "option": "Only a screen"
+      },
+      {
+        "optionId": 4,
+        "option": "A source of light, an opaque object, and a screen"
+      }
+    ]
+  },
+  {
+    "questionId": 5,
+    "question": "How does light travel?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "In a straight line"
+      },
+      {
+        "optionId": 2,
+        "option": "In a curved line"
+      },
+      {
+        "optionId": 3,
+        "option": "In a zigzag path"
+      },
+      {
+        "optionId": 4,
+        "option": "In all directions randomly"
+      }
+    ]
+  },
+  {
+    "questionId": 6,
+    "question": "Which object will allow light to partially pass through?",
+    "answerId": 3,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Metal sheet"
+      },
+      {
+        "optionId": 2,
+        "option": "Clear glass"
+      },
+      {
+        "optionId": 3,
+        "option": "Frosted glass"
+      },
+      {
+        "optionId": 4,
+        "option": "Brick wall"
+      }
+    ]
+  },
+  {
+    "questionId": 7,
+    "question": "What type of image is formed by a pinhole camera?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Erect"
+      },
+      {
+        "optionId": 2,
+        "option": "Inverted"
+      },
+      {
+        "optionId": 3,
+        "option": "Magnified"
+      },
+      {
+        "optionId": 4,
+        "option": "Blurred"
+      }
+    ]
+  },
+  {
+    "questionId": 8,
+    "question": "What happens when light is reflected from a mirror?",
+    "answerId": 4,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "Light is absorbed"
+      },
+      {
+        "optionId": 2,
+        "option": "Light passes through"
+      },
+      {
+        "optionId": 3,
+        "option": "Light is scattered"
+      },
+      {
+        "optionId": 4,
+        "option": "Light changes direction"
+      }
+    ]
+  },
+  {
+    "questionId": 9,
+    "question": "What will happen if you place a colored light on an opaque object?",
+    "answerId": 2,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "The shadow will have colors"
+      },
+      {
+        "optionId": 2,
+        "option": "The shadow will remain black"
+      },
+      {
+        "optionId": 3,
+        "option": "The object becomes transparent"
+      },
+      {
+        "optionId": 4,
+        "option": "The object will glow"
+      }
+    ]
+  },
+  {
+    "questionId": 10,
+    "question": "What is the role of a screen in shadow formation?",
+    "answerId": 1,
+    "options": [
+      {
+        "optionId": 1,
+        "option": "To capture the shadow"
+      },
+      {
+        "optionId": 2,
+        "option": "To emit light"
+      },
+      {
+        "optionId": 3,
+        "option": "To change the color of the shadow"
+      },
+      {
+        "optionId": 4,
+        "option": "To block the light completely"
+      }
+    ]
+  }
+]
